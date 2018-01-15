@@ -306,7 +306,6 @@ body.is_app .maya-navbar.ocultar {
 .content_type_clase_maya .maya-navbar .dropdownTemas {
 	position: relative;
 	display: inline-block;
-    margin-top: -10px;
     border-right: 10px solid #898989;
     padding-right: 40px;
     margin-left: 50px;
