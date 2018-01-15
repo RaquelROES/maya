@@ -249,7 +249,6 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	background-color: #FFEDB3;
 	padding-top: 11px;
 }
-
 body.is_app .maya-navbar {
 	top: 0;
 	transition: top 0.5s linear;
