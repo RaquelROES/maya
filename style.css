@@ -823,7 +823,7 @@ strong {
     border-top-right-radius: 50px;
 }
 
-.bck-box.blanca .bck-title{
+.bck-box.blanca> .bck-title{
     color: #F8758D;
     font-weight: bold;
     margin-bottom: 15px;
@@ -831,7 +831,7 @@ strong {
     font-size: 19px;
 }
 
-.bck-box.saberes  .bck-title{
+.bck-box.saberes> .bck-title{
     font-weight: 600;
     color: #fff;
     background: #00BDF2;
@@ -840,13 +840,13 @@ strong {
     border-top-left-radius: 15px;
 }
 
-.bck-box.saberes .bck-content{
+.bck-box.saberes> .bck-content{
   background-color: #FBE9B0;
    padding: 10px 20px 10px 20px;
    text-align: left;
 }
 
-.bck-box.desequilibrio .bck-title{
+.bck-box.desequilibrio> .bck-title{
     font-weight: 600;
     color: #fff;
     background: #EF0078;
@@ -855,14 +855,14 @@ strong {
     border-top-left-radius: 15px;
 }
 
-.bck-box.desequilibrio .bck-content{
+.bck-box.desequilibrio> .bck-content{
    background-color: #FBE9B0;
    padding: 10px 20px 10px 20px;
    text-align: left;
 }
 
 
-.bck-box.tic .bck-title{
+.bck-box.tic> .bck-title{
     font-weight: 600;
     color: #fff;
     background: #995195;
@@ -871,12 +871,12 @@ strong {
     border-top-left-radius: 15px;
 }
 
-.bck-box.tic .bck-content{
+.bck-box.tic> .bck-content{
     background-color: #FBE9B0;
    padding: 10px 20px 10px 20px;
      text-align: left;
 }
-.bck-box.valores .bck-title{
+.bck-box.valores> .bck-title{
     font-weight: 600;
     color: #fff;
     background: #A55603;
@@ -885,13 +885,13 @@ strong {
     border-top-left-radius: 15px;
 }
 
-.bck-box.valores .bck-content{
+.bck-box.valores> .bck-content{
   background-color: #FBE9B0;
    padding: 10px 20px 10px 20px;
     text-align: left;
 }
 
-.bck-box.indagacion .bck-title{
+.bck-box.indagacion> .bck-title{
     font-weight: 600;
     color: #fff;
     background: #F8821E;
@@ -900,13 +900,13 @@ strong {
     border-top-left-radius: 15px;
 }
 
-.bck-box.indagacion .bck-content{
+.bck-box.indagacion> .bck-content{
   background-color: #FBE9B0;
    padding: 10px 20px 10px 20px;
     text-align: left;
 }
 
-.bck-box.cajaevaluacion .bck-title{
+.bck-box.cajaevaluacion> .bck-title{
     color: #fff;
     background: #000;
     font-size: 1.4rem;
@@ -915,7 +915,7 @@ strong {
     border-top-right-radius: 15px;
 }
 
-.bck-box.cajaevaluacion .bck-content{
+.bck-box.cajaevaluacion> .bck-content{
     background: #E6C48A;
     border-bottom-right-radius: 30px;
 }
