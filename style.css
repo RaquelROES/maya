@@ -599,7 +599,7 @@ body.is_app .maya-navbar.ocultar {
 	position: relative;
 }
 
-strong {
+#strong {
     color: #444;
     font-weight: bold;
 }
