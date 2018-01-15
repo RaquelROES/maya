@@ -805,6 +805,8 @@ body.is_app .maya-navbar.ocultar {
     color: #F8758D;
     font-weight: bold;
     margin-bottom: 15px;
+    text-align: left;
+    font-size: 19px;
 }
 
 .bck-box.saberes  .bck-title{
