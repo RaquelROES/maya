@@ -839,7 +839,7 @@ body.is_app .maya-navbar.ocultar {
 .bck-box.desequilibrio .bck-title{
     font-weight: 600;
     color: #fff;
-    background: #995195;
+    background: #EF0078;
     padding: 10px 20px 10px 20px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -855,7 +855,7 @@ body.is_app .maya-navbar.ocultar {
 .bck-box.tic .bck-title{
     font-weight: 600;
     color: #fff;
-    background: #EF0078;
+    background: #995195;
     padding: 10px 20px 10px 20px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
