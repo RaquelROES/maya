@@ -506,6 +506,17 @@ body.is_app .maya-navbar.ocultar {
 	font-family: 'FontAwesome';
 	position: absolute;
 	margin-top: 9px;
+	font-family: 'FontAwesome';
+    position: absolute;
+    margin-top: -3px;
+    background: transparent;
+    color: #999;
+    border-radius: 0px;
+    width: 48px;
+    height: 48px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 2.4rem;
 }
 
 .navigator .slider-control.left:before {
