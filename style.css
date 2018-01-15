@@ -735,7 +735,6 @@ body.is_app .maya-navbar.ocultar {
 .bck-box .bck-content {
 	text-align: justify;
 	padding: 10px;
-	padding-left: 50px;
 }
 
 .bck-box.simple {
@@ -791,9 +790,8 @@ body.is_app .maya-navbar.ocultar {
 	border-radius: 20px;
 }
 
-.bck-box .inicio{
+.bck-box.inicio{
     background-color: #FFE593;
-    padding: 20px;
     margin-top: 30px;
 }
 
