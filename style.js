@@ -1,19 +1,22 @@
 (function (blink) {
 	'use strict';
 
-	var LnplatStyle = function () {
+	var mayaStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	LnplatStyle.prototype = {
-		bodyClassName: 'content_type_clase_lnplat',
+	mayaStyle.prototype = {
+		bodyClassName: 'content_type_clase_maya',
 		ckEditorStyles: {
-			name: 'lnplat',
+			name: 'maya',
 			styles: [
 				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
 				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Título tema', element: 'h3', attributes: { 'class': 'titulotema'} },
+				{ name: 'Título azul', element: 'h3', attributes: { 'class': 'azul'} },
+				{ name: 'Evaluación', element: 'h3', attributes: { 'class': 'evaluacion'} },
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
 				{ name: 'Énfasis Naranja', element: 'span', attributes: { 'class': 'bck-enfasis-naranja'} },
@@ -28,6 +31,15 @@
 				{ name: 'Caja simple', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple' } },
 				{ name: 'Caja simple 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-2' } },
 				{ name: 'Caja simple 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-3' } },
+				{ name: 'Caja inicio', type: 'widget', widget: 'blink_box', attributes: { 'class': 'inicio' } },
+				{ name: 'Caja blanca', type: 'widget', widget: 'blink_box', attributes: { 'class': 'blanca' } },
+				{ name: 'Caja saberes', type: 'widget', widget: 'blink_box', attributes: { 'class': 'saberes' } },
+				{ name: 'Caja desequilibrio', type: 'widget', widget: 'blink_box', attributes: { 'class': 'desequilibrio' } },
+				{ name: 'Caja valores', type: 'widget', widget: 'blink_box', attributes: { 'class': 'valores' } },
+				{ name: 'Caja indagación', type: 'widget', widget: 'blink_box', attributes: { 'class': 'indagacion' } },
+				{ name: 'Caja evaluación', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajaevaluacion' } },
+
+
 
 				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
 				{ name: 'Celda', element: 'td', attributes: { 'class': 'bck-td'} },
@@ -56,8 +68,8 @@
 				{ name: 'Escuchar', type: 'widget', widget: 'blink_box', attributes: { 'class': 'escuchar-box' } },
 				{ name: 'Actividad Scorm ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'actividad-scorm-box' } },
 
-				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'lnplat-dropdown' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'lnplat-dropdown-2' } },
+				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'maya-dropdown' } },
+				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'maya-dropdown-2' } },
 
 				{ name: 'Imagen Sin Bordes', type: 'widget', widget: 'image', attributes: { 'class': 'normal-img' } },
 				{ name: 'Imagen derecha', element: 'img', attributes: { 'class': 'bck-img right' } },
@@ -163,7 +175,7 @@
 					'</div>';
 
 			$navbarBottom
-				.attr('class', 'lnplat-navbar')
+				.attr('class', 'maya-navbar')
 				.wrapInner('<div class="navbar-content"></div>')
 				.find('ol')
 					.before(dropDown)
@@ -325,7 +337,7 @@
 
 		animateNavbarOnScroll: function () {
 			if (!blink.isApp) return;
-			var $navbar = $('.lnplat-navbar');
+			var $navbar = $('.maya-navbar');
 			var lastScrollTop = 0;
 			$('.js-slider-item').scroll(function () {
 				var scrollTop = $(this).scrollTop();
@@ -335,15 +347,14 @@
 		},
                 
                 changeHighBar: function () {
-                    if($('.lnplat-navbar').length>0 && $('.navbar').length>0){
-                        blink.theme.setTopByHeight('.navbar', '.lnplat-navbar');
+                    if($('.maya-navbar').length>0 && $('.navbar').length>0){
+                        blink.theme.setTopByHeight('.navbar', '.maya-navbar');
                     }
                 }
 	};
 
-	LnplatStyle.prototype = _.extend({}, new blink.theme.styles.basic(), LnplatStyle.prototype);
+	mayaStyle.prototype = _.extend({}, new blink.theme.styles.basic(), mayaStyle.prototype);
 
-	blink.theme.styles['lnplat'] = LnplatStyle;
+	blink.theme.styles['maya'] = mayaStyle;
 
 })( blink );
-
