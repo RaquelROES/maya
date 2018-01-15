@@ -790,6 +790,7 @@ body.is_app .maya-navbar.ocultar {
 }
 
 .bck-box.inicio{
+	padding-top: 20px;
     background-color: #FFE593;
     margin-top: 30px;
 }
