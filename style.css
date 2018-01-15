@@ -508,7 +508,7 @@ body.is_app .maya-navbar.ocultar {
 	margin-top: 9px;
 	font-family: 'FontAwesome';
     position: absolute;
-    margin-top: -3px;
+    margin-top: 10px;
     background: transparent;
     color: #999;
     border-radius: 0px;
