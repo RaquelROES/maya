@@ -911,14 +911,14 @@ body.is_app .maya-navbar.ocultar {
     border-left: 15px solid #CC4E43;
 }
 
-.azul{
+.azul {
     background: #00BDF2;
+    font-size: 34px;
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
     padding: 40px 15px 20px 15px;
-    margin-top: -30px;
     margin-bottom: 35px;
-   text-align: left;
+    text-align: left;
 }
 
 .evaluacion{
