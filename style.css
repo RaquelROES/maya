@@ -839,18 +839,33 @@ body.is_app .maya-navbar.ocultar {
 .bck-box.desequilibrio .bck-title{
     font-weight: 600;
     color: #fff;
-    background: #EF0078;
+    background: #995195;
     padding: 10px 20px 10px 20px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
 
 .bck-box.desequilibrio .bck-content{
+   background-color: #FBE9B0;
+   padding: 10px 20px 10px 20px;
+   text-align: left;
+}
+
+
+.bck-box.tic .bck-title{
+    font-weight: 600;
+    color: #fff;
+    background: #EF0078;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.bck-box.tic .bck-content{
   background-color: #FBE9B0;
    padding: 10px 20px 10px 20px;
      text-align: left;
 }
-
 .bck-box.valores .bck-title{
     font-weight: 600;
     color: #fff;
