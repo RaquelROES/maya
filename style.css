@@ -247,8 +247,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	left: 0;
 	z-index: 100;
 	background-color: #FFEDB3;
+	background: linear-gradient(to bottom, white, #f2f2f2);
 	padding-top: 11px;
 }
+
 body.is_app .maya-navbar {
 	top: 0;
 	transition: top 0.5s linear;
@@ -439,6 +441,11 @@ body.is_app .maya-navbar.ocultar {
 	font-size: 1.5rem;
 	overflow: auto;
 }
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-color: #FFEDB3;
+}
+
 /**/
 
 /* Navigators */
@@ -1462,7 +1469,7 @@ table td.bck-td {
 		border-left-width: 20px;
 		border-right-width: 20px;
 	}
-	
+
 	#actividad .carousel-inner .taller .item-container:before {
 		top: 0;
 		left: 0;
