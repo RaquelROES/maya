@@ -599,6 +599,11 @@ body.is_app .maya-navbar.ocultar {
 	position: relative;
 }
 
+strong {
+    color: #444;
+    font-weight: bold;
+}
+
 .bck-enfasis {
     color: #9363A8;
     font-weight: bold;
@@ -862,7 +867,7 @@ body.is_app .maya-navbar.ocultar {
 }
 
 .bck-box.tic .bck-content{
-  background-color: #FBE9B0;
+    background-color: #FBE9B0;
    padding: 10px 20px 10px 20px;
      text-align: left;
 }
