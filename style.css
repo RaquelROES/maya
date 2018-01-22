@@ -599,13 +599,13 @@ body.is_app .maya-navbar.ocultar {
 	position: relative;
 }
 
-strong {
+#strong {
     color: #444;
     font-weight: bold;
 }
 
 .bck-enfasis {
-    color: #9363A8;
+    color: #00BDF2;
     font-weight: bold;
 }
 
@@ -674,12 +674,14 @@ strong {
 
 #actividad .content .texto_curso .bck-ol li:before,
 #actividad .content .workspace ul li .bck-ol li:before {
-	content: counter(bck-li-counter)'.-';
+	content: counter(bck-li-counter)'';
 	position: absolute;
-	left: -47px;
+	left: -46px;
 	width: 38px;
 	text-align: right;
-	color: #9665AB;
+    font-size: 2.0rem; 
+    color: #0095DA;
+    margin-top: -4px;
 }
 
 #actividad .content .texto_curso .bck-ol-2,
@@ -701,13 +703,15 @@ strong {
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
 	content: counter(bck-li-counter)'';
-    color: #003574;
-    background: #FFF66C;
     font-weight: 600;
-    padding: 0px 8px;
-    border-radius: 100%;
     text-align: left;
     margin-right: 5px;
+    color: #1777c4;
+    background: #FFDD00;
+    padding: 2px 10px;
+    border-radius: 100%;
+    border: 4px solid #FFCB06;
+    font-family: fantasy;
 }
 /**/
 
@@ -808,7 +812,9 @@ strong {
 
 .bck-box.simple-3 {
 	border: 3px solid #9665AB;
-	border-radius: 20px;
+	border-radius: 8px;
+    background: #CDBAD7;
+    padding: 5px;
 }
 
 .bck-box.inicio {
@@ -916,9 +922,41 @@ strong {
 }
 
 .bck-box.cajaevaluacion> .bck-content{
-    background: #E6C48A;
+    background: #fdaf18de;
     border-bottom-right-radius: 30px;
 }
+
+.bck-box.inter> .bck-title {
+    font-weight: 600;
+    color: #fff;
+    background: #00A88E;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.bck-box.inter> .bck-content {
+    background-color: #FFD402;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+}
+
+
+.bck-box.diver> .bck-title {
+    font-weight: 600;
+    color: #fff;
+    background: #F25947;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.bck-box.diver> .bck-content {
+    background-color: #FFD402;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+}
+
 
 /**/
 
@@ -949,12 +987,13 @@ strong {
 .evaluacion{
     background: url(/useruploads/ctx/a/67188819/r/s/18051080/2605201706.png);
     font-size: 4.8rem;
-    text-align: center;
     font-weight: 500;
     color: #F67020;
-    background-blend-mode: overlay;
-    background-size: 230px;
+    background-blend-mode: ;
+    background-size: 900px;
     padding: 20px 0px 20px 20px;
+    margin-top: -30px;
+    background-blend-mode: overlay;
     margin-top: -30px;
 }
 
@@ -1296,7 +1335,9 @@ strong {
 }
 
 table td.bck-td {
-	background-color: #CC99FF;
+	background-color: #925C9B;
+    color: #fff;
+    font-weight: 800;
 }
 
 /**/
