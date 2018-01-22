@@ -357,5 +357,5 @@
 	mayaStyle.prototype = _.extend({}, new blink.theme.styles.basic(), mayaStyle.prototype);
 
 	blink.theme.styles['maya'] = mayaStyle;
-
+	
 })( blink );
