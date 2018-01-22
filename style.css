@@ -712,6 +712,8 @@ body.is_app .maya-navbar.ocultar {
     border-radius: 100%;
     border: 4px solid #FFCB06;
     font-family: fantasy;
+    position: absolute;
+    left: 15px;
 }
 /**/
 
@@ -1546,7 +1548,7 @@ table td.bck-td {
 		border-left-width: 20px;
 		border-right-width: 20px;
 	}
-	
+
 	#actividad .carousel-inner .taller .item-container:before {
 		top: 0;
 		left: 0;
