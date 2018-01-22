@@ -1057,37 +1057,6 @@ body.is_app .maya-navbar.ocultar {
 	width: 30px;
 }
 
-.presentation-img .bck-content:after {
-	background-image: url(icon_presentacion_imagen.png);
-}
-
-.presentation-video .bck-content:after {
-	background-image: url(icon_presentacion_video.png);
-}
-
-.presentation-video-2 .bck-content:after {
-	background-image: url(icon_presentacion_video2.png);
-	bottom: 7px;
-	right: 7px;
-	height: 25px;
-	width: 25px;
-}
-
-.slider-img .bck-content:after {
-	background-image: url(icon_slider_imagen.png);
-}
-
-.trabajar-img .bck-content:after {
-	background-image: url(icon_trabajaconlaimagen.png);
-}
-
-.escuchar-box .bck-content:after {
-	background-image: url(icon_escuchar_box.png);
-}
-
-.actividad-scorm-box .bck-content:after {
-	background-image: url(icon_actividadscorm_box.png);
-}
 
 
 /**/
