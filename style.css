@@ -991,6 +991,26 @@ body.is_app .maya-navbar.ocultar {
     text-align: left;
 }
 
+.azuldos{
+    color: #00BDF2;
+    font-size: 3rem;
+}
+
+
+
+.azuldos{
+    color: #00BDF2;
+    font-size: 3rem;
+}
+
+.azuldos:before {
+    content: "";
+    background: #00BDF2;
+    padding: 0px 19px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
 .evaluacion{
     text-align: center;
     font-size: 4.8rem;
