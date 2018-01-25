@@ -18,6 +18,7 @@
 				{ name: 'Título azul', element: 'h3', attributes: { 'class': 'azul'} },
 				{ name: 'Título azul 2', element: 'h3', attributes: { 'class': 'azuldos'} },
 				{ name: 'Proyecto', element: 'h3', attributes: { 'class': 'proyecto'} },
+				{ name: 'Proyecto 2', element: 'h3', attributes: { 'class': 'proyectodos'} },
 				{ name: 'Evaluación', element: 'h3', attributes: { 'class': 'evaluacion'} },
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
