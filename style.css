@@ -802,11 +802,9 @@ body.is_app .maya-navbar.ocultar {
 }
 
 .bck-box.simple {
-    background-color: #F2E7D1;
-    border-radius: 20px;
-    border-bottom-right-radius: 0;
+    background-color: #f7f2df;
     text-align: left;
-    padding-right: 15px;
+    padding: 15px;
 }
 
 .bck-box.simple:after {
@@ -1060,6 +1058,11 @@ body.is_app .maya-navbar.ocultar {
     padding: 0px 19px;
     margin-right: 10px;
     border-radius: 100%;
+}
+
+.azulquimica {
+    color: #51ace2;
+    font-weight: bold;
 }
 
 .evaluacion{
