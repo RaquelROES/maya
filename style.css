@@ -846,6 +846,12 @@ body.is_app .maya-navbar.ocultar {
     font-size: 19px;
 }
 
+.bck-box.proyecto{
+    background: #ffdd00;
+    padding: 20px;
+}
+
+
 .bck-box.saberes> .bck-title{
     font-weight: 600;
     color: #fff;
