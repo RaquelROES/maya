@@ -846,6 +846,12 @@ body.is_app .maya-navbar.ocultar {
     font-size: 19px;
 }
 
+.bck-box.cajamarron{
+    background: #E7D894;
+    padding: 20px;
+    border-top-right-radius: 50px;
+}
+
 .bck-box.cajaproyecto{
     background: #ffdd00;
     padding: 20px;
