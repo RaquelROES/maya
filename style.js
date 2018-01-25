@@ -17,6 +17,7 @@
 				{ name: 'Título tema', element: 'h3', attributes: { 'class': 'titulotema'} },
 				{ name: 'Título azul', element: 'h3', attributes: { 'class': 'azul'} },
 				{ name: 'Título azul 2', element: 'h3', attributes: { 'class': 'azuldos'} },
+				{ name: 'Título azul química', element: 'h3', attributes: { 'class': 'azulquimica'} },
 				{ name: 'Proyecto', element: 'h3', attributes: { 'class': 'proyecto'} },
 				{ name: 'Proyecto 2', element: 'h3', attributes: { 'class': 'proyectodos'} },
 				{ name: 'Evaluación', element: 'h3', attributes: { 'class': 'evaluacion'} },
