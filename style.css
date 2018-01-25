@@ -739,6 +739,7 @@ body.is_app .maya-navbar.ocultar {
 	counter-increment: bck-li-counter;
 	position: relative;
 	z-index: 0;
+	padding-left: 35px;
 }
 
 #actividad .content .texto_curso ol.bck-ol-3 li:before,
