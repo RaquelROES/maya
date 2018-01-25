@@ -110,6 +110,7 @@ input, button, select, textarea {
 #actividad .workspace.ordenar .js-rank-item ul li:before {
     background-color: #AC218F;
     border-radius: 0%;
+    border: 0px;
 }
 
 #actividad .class_slide {
