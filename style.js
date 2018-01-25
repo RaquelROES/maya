@@ -16,6 +16,7 @@
 				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title3'} },
 				{ name: 'Título tema', element: 'h3', attributes: { 'class': 'titulotema'} },
 				{ name: 'Título azul', element: 'h3', attributes: { 'class': 'azul'} },
+				{ name: 'Título azul 2', element: 'h3', attributes: { 'class': 'azuldos'} },
 				{ name: 'Evaluación', element: 'h3', attributes: { 'class': 'evaluacion'} },
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
