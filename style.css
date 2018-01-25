@@ -1063,6 +1063,8 @@ body.is_app .maya-navbar.ocultar {
 .azulquimica {
     color: #51ace2;
     font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .evaluacion{
@@ -1510,4 +1512,3 @@ table td.bck-td {
 		bottom:0 ;
 	}
 }
-
