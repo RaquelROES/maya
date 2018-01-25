@@ -36,6 +36,7 @@
 				{ name: 'Caja simple 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-3' } },
 				{ name: 'Caja inicio', type: 'widget', widget: 'blink_box', attributes: { 'class': 'inicio' } },
 				{ name: 'Caja blanca', type: 'widget', widget: 'blink_box', attributes: { 'class': 'blanca' } },
+				{ name: 'Caja proyecto', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajaproyecto' } },
 				{ name: 'Caja saberes', type: 'widget', widget: 'blink_box', attributes: { 'class': 'saberes' } },
 				{ name: 'Caja desequilibrio', type: 'widget', widget: 'blink_box', attributes: { 'class': 'desequilibrio' } },
 				{ name: 'Caja tic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'tic' } },
