@@ -996,13 +996,6 @@ body.is_app .maya-navbar.ocultar {
     font-size: 3rem;
 }
 
-
-
-.azuldos{
-    color: #00BDF2;
-    font-size: 3rem;
-}
-
 .azuldos:before {
     content: "";
     background: #00BDF2;
