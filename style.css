@@ -585,7 +585,9 @@ body.is_app .maya-navbar.ocultar {
     color: #9665AB;
     font-size: 2.4rem;
     font-weight: bold;
-	position: relative;
+    position: relative;
+    border-left: 0px;
+    padding: 10px 20px 0px 95px;
 }
 
 .bck-title2 {
