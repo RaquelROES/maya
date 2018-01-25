@@ -38,6 +38,7 @@
 				{ name: 'Caja blanca', type: 'widget', widget: 'blink_box', attributes: { 'class': 'blanca' } },
 				{ name: 'Caja proyecto', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajaproyecto' } },
 				{ name: 'Caja marrón', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajamarron' } },
+				{ name: 'Caja buen vivir', type: 'widget', widget: 'blink_box', attributes: { 'class': 'buenvivir' } },
 				{ name: 'Caja saberes', type: 'widget', widget: 'blink_box', attributes: { 'class': 'saberes' } },
 				{ name: 'Caja desequilibrio', type: 'widget', widget: 'blink_box', attributes: { 'class': 'desequilibrio' } },
 				{ name: 'Caja tic', type: 'widget', widget: 'blink_box', attributes: { 'class': 'tic' } },
