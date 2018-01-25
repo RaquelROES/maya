@@ -392,10 +392,10 @@ body.is_app .maya-navbar.ocultar {
 }
 
 .content_type_clase_maya .maya-navbar .dropdown {
-	width: 320px;
+	width: 390px;
 	display: inline-block;
-    float: none;
-    margin: 0px 0px 0px 40px;
+       float: none;
+       margin: 0px 0px 0px 40px;
 }
 
 .open > .dropdown-menu {
