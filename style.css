@@ -868,7 +868,7 @@ body.is_app .maya-navbar.ocultar {
 }
 
 .bck-box.saberes> .bck-content{
-  background-color: #FBE9B0;
+  background-color: #ffd402;
    padding: 10px 20px 10px 20px;
    text-align: left;
 }
@@ -883,7 +883,7 @@ body.is_app .maya-navbar.ocultar {
 }
 
 .bck-box.desequilibrio> .bck-content{
-   background-color: #FBE9B0;
+   background-color: #ffd402;
    padding: 10px 20px 10px 20px;
    text-align: left;
 }
@@ -899,21 +899,21 @@ body.is_app .maya-navbar.ocultar {
 }
 
 .bck-box.tic> .bck-content{
-    background-color: #FBE9B0;
+    background-color: #ffd402;
    padding: 10px 20px 10px 20px;
      text-align: left;
 }
 .bck-box.valores> .bck-title{
     font-weight: 600;
     color: #fff;
-    background: #A55603;
+    background: #ffd402;
     padding: 10px 20px 10px 20px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
 
 .bck-box.valores> .bck-content{
-  background-color: #FBE9B0;
+  background-color: #ffd402;
    padding: 10px 20px 10px 20px;
     text-align: left;
 }
@@ -928,7 +928,7 @@ body.is_app .maya-navbar.ocultar {
 }
 
 .bck-box.indagacion> .bck-content{
-  background-color: #FBE9B0;
+  background-color: #ffd402;
    padding: 10px 20px 10px 20px;
     text-align: left;
 }
@@ -943,7 +943,7 @@ body.is_app .maya-navbar.ocultar {
 }
 
 .bck-box.cajaevaluacion> .bck-content{
-    background: #fdaf18de;
+    background: #ffd402;
     border-bottom-right-radius: 30px;
 }
 
@@ -957,7 +957,7 @@ body.is_app .maya-navbar.ocultar {
 }
 
 .bck-box.inter> .bck-content {
-    background-color: #FFD402;
+    background-color: #ffd402;
     padding: 10px 20px 10px 20px;
     text-align: left;
 }
@@ -973,10 +973,26 @@ body.is_app .maya-navbar.ocultar {
 }
 
 .bck-box.diver> .bck-content {
-    background-color: #FFD402;
+    background-color: #ffd402;
     padding: 10px 20px 10px 20px;
     text-align: left;
 }
+
+.bck-box.buenvivir> .bck-title {
+    font-weight: 600;
+    color: #fff;
+    background: #6f85c1;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.bck-box.buenvivir> .bck-content {
+    background-color: #ffd402;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+}
+
 
 
 /**/
