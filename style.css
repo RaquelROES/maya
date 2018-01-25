@@ -87,6 +87,10 @@ input, button, select, textarea {
 
 /**/
 
+.texto_curso p:last-of-type {
+    margin-bottom: 0px;
+}
+
 .content_type_clase_maya #actividad .texto_curso {
 	font-size: 1.8rem;
 }
