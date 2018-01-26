@@ -936,6 +936,8 @@ body.is_app .maya-navbar.ocultar {
    padding: 10px 20px 10px 20px;
      text-align: left;
 }
+
+
 .bck-box.valores> .bck-title{
     font-weight: 600;
     color: #fff;
@@ -1025,6 +1027,70 @@ body.is_app .maya-navbar.ocultar {
     padding: 10px 20px 10px 20px;
     text-align: left;
 }
+
+
+.bck-box.glosario> .bck-title {
+    font-weight: 600;
+    color: #fff;
+    background: #a3bd31;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.bck-box.glosario> .bck-content {
+    background-color: #efde94;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+}
+
+
+.bck-box.laboratorio> .bck-title {
+    font-weight: 600;
+    color: #fff;
+    background: #b49954;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.bck-box.laboratorio> .bck-content {
+    background-color: #f5eeca;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+}
+
+
+.bck-box.ejercicioresuelto> .bck-title {
+    font-weight: 600;
+    color: #fff;
+    background: #bf70a5;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.bck-box.ejercicioresuelto> .bck-content {
+    background-color: #f5eeca;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+}
+
+.bck-box.seguridad> .bck-title {
+    font-weight: 600;
+    color: #fff;
+    background: #f7df00;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.bck-box.seguridad> .bck-content {
+    background-color: #f5eeca;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+}
+
 
 /**/
 
