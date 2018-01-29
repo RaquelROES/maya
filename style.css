@@ -1065,6 +1065,30 @@ body.is_app .maya-navbar.ocultar {
     text-align: left;
 }
 
+/*popo-up*/
+
+.popover-title {
+    margin: 0;
+    background-color: #a3bd31;
+    border-bottom: 1px solid #a3bd31;
+    border-radius: 5px 5px 0 0;
+    font-weight: 600;
+    color: #fff;
+    background: #a3bd31;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+.popover-content {
+    padding: 9px 14px;
+    background-color: #efde94;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+}
+
+
 
 .bck-box.laboratorio> .bck-title {
     font-weight: 600;
