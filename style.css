@@ -1045,7 +1045,7 @@ body.is_app .maya-navbar.ocultar {
     text-align: left;
 }
 
-.bck-box .buenvivir .bck-title:before {
+.bck-box.buenvivir> .bck-title:before {
     background-image: url(/useruploads/r/a/86413580/activity_other_imported/iconobuenvivirmaya.png);
 }
 
