@@ -55,7 +55,8 @@
 				{ name: 'Caja glosario', type: 'widget', widget: 'blink_box', attributes: { 'class': 'glosario' } },
 
 				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
-				{ name: 'Celda', element: 'td', attributes: { 'class': 'bck-td'} },
+				{ name: 'Celda1', element: 'td', attributes: { 'class': 'bck-td'} },
+				{ name: 'Celda2', element: 'td', attributes: { 'class': 'bck-tdos'} },
 
 				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'maya-dropdown' } },
 				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'maya-dropdown-2' } },
