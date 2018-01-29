@@ -1134,6 +1134,10 @@ body.is_app .maya-navbar.ocultar {
 
 /**Títulos**/
 
+.titulobase{
+    font-family: 'Averia Serif Libre', Georgia, serif;
+}
+
 .titulotema{
     font-weight: 600;
     text-align: center;
