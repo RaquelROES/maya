@@ -1356,11 +1356,17 @@ body.is_app .maya-navbar.ocultar {
 
 .bck-table td {
 	padding: 10px;
-	border-color: #ddd
+	border-color: #009385;
 }
 
 table td.bck-td {
-	background-color: #925C9B;
+	background-color: #a0c8bf;
+    color: #fff;
+    font-weight: 800;
+}
+
+table td.bck-tdos {
+	background-color: #d3e6e2;
     color: #fff;
     font-weight: 800;
 }
