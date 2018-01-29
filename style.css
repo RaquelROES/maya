@@ -1013,6 +1013,23 @@ body.is_app .maya-navbar.ocultar {
     text-align: left;
 }
 
+
+.bck-box.estrategia> .bck-title {
+    font-weight: 600;
+    color: #fff;
+    background: #f58221;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.bck-box.estrategia> .bck-content {
+    background-color: #ffd402;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+}
+
+
 .bck-box.buenvivir> .bck-title {
     font-weight: 600;
     color: #fff;
