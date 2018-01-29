@@ -1396,6 +1396,12 @@ table td.bck-td-dos {
     font-weight: 600;
 }
 
+table td.bck-td-tres {
+	background-color: #a966aa;
+    color: #fff;
+    font-weight: 600;
+}
+
 /**/
 
 .textarea-container {
