@@ -1101,9 +1101,11 @@ body.is_app .maya-navbar.ocultar {
     font-weight: 600;
     color: #fff;
     background: #f7df00;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 50px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+    width: 50%;
+    text-align: left;
 }
 
 .bck-box.seguridad> .bck-content {
