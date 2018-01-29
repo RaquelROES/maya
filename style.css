@@ -1155,7 +1155,7 @@ body.is_app .maya-navbar.ocultar {
     margin-bottom: 25px;
 }
 
-.evaluacion{
+.evaluacion {
     text-align: center;
     font-size: 4.8rem;
     font-weight: 500;
@@ -1163,6 +1163,7 @@ body.is_app .maya-navbar.ocultar {
     background-size: 900px;
     padding: 20px 0px 20px 20px;
     margin-top: -30px;
+    background-image: url(/useruploads/r/a/86024630/activity_other_imported/img_fondoEva1.jpg) !important;
     background-blend-mode: overlay;
 }
 
