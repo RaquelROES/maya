@@ -11,6 +11,7 @@
 		ckEditorStyles: {
 			name: 'maya',
 			styles: [
+				{ name: 'Título base', element: 'h2', attributes: { 'class': 'titulobase'} },
 				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
 				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title3'} },
