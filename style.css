@@ -1109,6 +1109,19 @@ body.is_app .maya-navbar.ocultar {
 }
 
 
+.bck-title:before {
+    content: " ";
+    position: absolute;
+    left: -14px;
+    z-index: 100;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+
+
 /**/
 
 /*ENLACES*/
