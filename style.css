@@ -982,6 +982,20 @@ body.is_app .maya-navbar.ocultar {
     border-bottom-right-radius: 30px;
 }
 
+.bck-box.cajaevaluaciondos> .bck-title{
+    color: #fff;
+    background: #000;
+    font-size: 1.4rem;
+    max-width: 95%;
+    padding: 5px;
+    border-top-right-radius: 15px;
+}
+
+.bck-box.cajaevaluaciondos> .bck-content{
+    background: #e0cde1;
+    border-bottom-right-radius: 30px;
+}
+
 .bck-box.inter> .bck-title {
     font-weight: 600;
     color: #fff;
