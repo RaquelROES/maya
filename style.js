@@ -22,7 +22,7 @@
 				{ name: 'Proyecto', element: 'h3', attributes: { 'class': 'proyecto'} },
 				{ name: 'Proyecto 2', element: 'h3', attributes: { 'class': 'proyectodos'} },
 				{ name: 'Evaluación', element: 'h3', attributes: { 'class': 'evaluacion'} },
-
+				
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
 				{ name: 'Énfasis Naranja', element: 'span', attributes: { 'class': 'bck-enfasis-naranja'} },
 				{ name: 'Versalitas', element: 'span', attributes: { 'class': 'bck-versalitas'} },
@@ -48,6 +48,7 @@
 				{ name: 'Caja valores', type: 'widget', widget: 'blink_box', attributes: { 'class': 'valores' } },
 				{ name: 'Caja indagación', type: 'widget', widget: 'blink_box', attributes: { 'class': 'indagacion' } },
 				{ name: 'Caja evaluación', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajaevaluacion' } },
+				{ name: 'Caja evaluación dos', element: 'h3', attributes: { 'class': 'cajaevaluaciondos'} },
                                 { name: 'Caja estrategia', type: 'widget', widget: 'blink_box', attributes: { 'class': 'estrategia' } },
                                 { name: 'Caja diversidad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'diver' } },
 				 { name: 'Caja diversidad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'diver' } },
