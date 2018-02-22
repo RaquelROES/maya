@@ -49,6 +49,7 @@
 				{ name: 'Caja indagación', type: 'widget', widget: 'blink_box', attributes: { 'class': 'indagacion' } },
 				{ name: 'Caja evaluación', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajaevaluacion' } },
 				{ name: 'Caja evaluación dos', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajaevaluaciondos' } },
+				{ name: 'Caja evaluación tres', type: 'widget', widget: 'blink_box', attributes: { 'class': 'cajaevaluaciontres' } },
                                 { name: 'Caja estrategia', type: 'widget', widget: 'blink_box', attributes: { 'class': 'estrategia' } },
                                 { name: 'Caja diversidad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'diver' } },
 				{ name: 'Caja Interdisciplinariedad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'inter' } },
