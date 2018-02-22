@@ -55,6 +55,7 @@
 				{ name: 'Caja laboratorio', type: 'widget', widget: 'blink_box', attributes: { 'class': 'laboratorio' } },
 				{ name: 'Caja ejercicio resuelto', type: 'widget', widget: 'blink_box', attributes: { 'class': 'ejercicioresuelto' } },
 				{ name: 'Caja seguridad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'seguridad' } },
+				{ name: 'Caja Frases', type: 'widget', widget: 'blink_box', attributes: { 'class': 'frases' } },
 				{ name: 'Caja glosario', type: 'widget', widget: 'blink_box', attributes: { 'class': 'glosario' } },
 
 				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
