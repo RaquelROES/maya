@@ -51,7 +51,7 @@
 				{ name: 'Caja evaluación dos', element: 'h3', attributes: { 'class': 'cajaevaluaciondos'} },
                                 { name: 'Caja estrategia', type: 'widget', widget: 'blink_box', attributes: { 'class': 'estrategia' } },
                                 { name: 'Caja diversidad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'diver' } },
-				 { name: 'Caja diversidad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'diver' } },
+				 { name: 'Caja Interdisciplinariedad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'inter' } },
 				{ name: 'Caja laboratorio', type: 'widget', widget: 'blink_box', attributes: { 'class': 'laboratorio' } },
 				{ name: 'Caja ejercicio resuelto', type: 'widget', widget: 'blink_box', attributes: { 'class': 'ejercicioresuelto' } },
 				{ name: 'Caja seguridad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'seguridad' } },
