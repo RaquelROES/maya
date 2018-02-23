@@ -1126,7 +1126,7 @@ body.is_app .maya-navbar.ocultar {
 
 .popover-content {
     padding: 9px 14px;
-    background-color: #efde94;
+    background-color: #ffd402;
     padding: 10px 20px 10px 20px;
     text-align: left;
 }
@@ -1141,7 +1141,6 @@ body.is_app .maya-navbar.ocultar {
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;  
-    background-image: url(/useruploads/r/a/88383070/activity_other_imported/iconoglosariociudadania.png) !important;   
 }
 
 
