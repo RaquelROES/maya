@@ -1131,6 +1131,18 @@ body.is_app .maya-navbar.ocultar {
     text-align: left;
 }
 
+.popover-title:before {
+    content: " ";
+    position: absolute;
+    left: -20px;
+    margin-top: -10px;
+    z-index: 100;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    background-image: url(/useruploads/r/a/88276370/activity_other_imported/glosariomateicono.png/useruploads/r/a/86855320/activity_other_imported/glosariofilosofia.png);
+}
 
 
 .bck-box.laboratorio> .bck-title {
