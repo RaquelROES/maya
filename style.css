@@ -907,6 +907,21 @@ body.is_app .maya-navbar.ocultar {
    text-align: left;
 }
 
+.bck-box.sabias> .bck-title{
+    font-weight: 600;
+    color: #fff;
+    background: #bc6fa5;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.bck-box.sabias> .bck-content{
+  background-color: #efde94;
+   padding: 10px 20px 10px 20px;
+   text-align: left;
+}
+
 .bck-box.desequilibrio> .bck-title{
     font-weight: 600;
     color: #fff;
