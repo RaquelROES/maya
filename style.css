@@ -239,13 +239,13 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     color: #898989;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     line-height: 27px;
     font-weight: 500;
 }
 
 #indice .units ul li a .title {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     color: #898989;
     margin: -15px 0 0 35px;
