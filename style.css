@@ -583,6 +583,7 @@ body.is_app .maya-navbar.ocultar {
 }
 
 .bck-title1 {
+    text-align: left;
     color: #9665AB;
     font-size: 2.4rem;
     font-weight: bold;
@@ -1722,3 +1723,18 @@ table td.bck-td-tres {
 	}
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+
+
+.content_type_clase_maya .maya-navbar .dropdownTemas {
+    width: 440px;
+}
+
+.content_type_clase_maya .maya-navbar .dropdown {
+    width: 360px;
+    display: inline-block;
+    float: none;
+    margin: 0px 0px 0px 40px;
+}
+
+}
