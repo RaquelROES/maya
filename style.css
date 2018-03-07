@@ -217,7 +217,7 @@ fieldset[disabled] .content_type_clase_maya .slide_main input {
 #indice .units ul li {
     border-radius: 0px;
     background: #e5e5e5;
-    padding: 15px;
+    padding: 2px;
  }
 
 #indice .units ul li.active:not(.disabled),
