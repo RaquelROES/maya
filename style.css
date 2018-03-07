@@ -248,7 +248,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
     font-size: 2.2rem;
     font-weight: 500;
     color: #898989;
-    margin: -50px 0 0 35px;
+    margin: -15px 0 0 35px;
     line-height: 27px;
     display: block;
 }
