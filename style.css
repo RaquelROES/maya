@@ -1513,8 +1513,12 @@ table td.bck-td-tres {
     background: white;
 }
 
-.btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
+ .btn-primary.disabled, .btn-primary.disabled:focus {
     background-color: #9665AB;
+}
+
+.btn-primary{
+    background-color: #85c939;
 }
 
 /**/
@@ -1717,3 +1721,4 @@ table td.bck-td-tres {
 		bottom:0 ;
 	}
 }
+
