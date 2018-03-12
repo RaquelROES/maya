@@ -648,10 +648,9 @@ body.is_app .maya-navbar.ocultar {
 
 /*listas*/
 
-.content ol li, .cke_contents ol li {
+ol.bck-ol li, ol.bck-ol-2 li {
     padding-left: 0px;
 }
-
 
 #actividad .content ul.bck-ul li {
 	list-style: none;
@@ -1735,4 +1734,3 @@ table td.bck-td-tres {
 }
 
 }
-
