@@ -648,9 +648,7 @@ body.is_app .maya-navbar.ocultar {
 
 /*listas*/
 
-.content ol li, .cke_contents ol li {
-    padding-left: 32px;
-}
+
 
 
 #actividad .content ul.bck-ul li {
@@ -719,13 +717,13 @@ body.is_app .maya-navbar.ocultar {
 	text-align: right;
     font-size: 2.0rem; 
     color: #0095DA;
-    margin-top: -4px;
 }
 
 #actividad .content .texto_curso .bck-ol-2,
 #actividad .content .workspace ul li .bck-ol-2 {
 	list-style-type: none;
 	counter-reset: bck-li-counter;
+	padding-left: 10px;
 	padding-top: 10px;
     padding-right: 15px;
     padding-bottom: 5px;
@@ -750,8 +748,7 @@ body.is_app .maya-navbar.ocultar {
     border-radius: 100%;
     border: 4px solid #FFCB06;
     font-family: fantasy;
-    position: absolute;
-    left: 20px;
+    position: relative;
 }
 
 
@@ -763,6 +760,7 @@ body.is_app .maya-navbar.ocultar {
 	padding-top: 10px;
     padding-right: 15px;
     padding-bottom: 5px;
+    padding-left: 0px;
 }
 
 #actividad .content .texto_curso .bck-ol-3 li,
@@ -779,8 +777,7 @@ body.is_app .maya-navbar.ocultar {
     font-weight: 500;
     text-align: left;
     color: #1777c4;
-    position: absolute;
-    left: 34px;
+    position: relative;
 }
 
 /**/
