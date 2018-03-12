@@ -648,7 +648,11 @@ body.is_app .maya-navbar.ocultar {
 
 /*listas*/
 
-ol.bck-ol li, ol.bck-ol-2 li {
+.content ol.bck-ol li, ol.bck-ol-2 li {
+    padding-left: 0px;
+}
+
+.content ol li, .cke_contents ol li {
     padding-left: 0px;
 }
 
