@@ -632,7 +632,7 @@ body.is_app .maya-navbar.ocultar {
 	position: relative;
 }
 
-#strong {
+strong {
     color: #444;
     font-weight: bold;
 }
@@ -647,6 +647,10 @@ body.is_app .maya-navbar.ocultar {
 }
 
 /*listas*/
+
+.content ol li, .cke_contents ol li {
+    padding-left: 32px;
+}
 
 
 #actividad .content ul.bck-ul li {
